@@ -1,0 +1,115 @@
+body{
+  font-family:"Montserrat";
+}
+
+#title{
+  color:white;
+  background: linear-gradient(110deg,#d35bde 60%, #42f59b 60%);
+}
+h1 {
+  font-family:"Montserrat";
+  font-size: 10rem;
+  line-height: 1.5;
+  padding-bottom: 1.2rem;
+  padding-left: 1rem;
+  border: solid 6px orange;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+}
+
+p{
+  color: #808080 bold;
+}
+.container{
+  padding:0.5% 15%;
+  padding-bottom: 2.5rem;
+}
+img{
+  height:300px;
+  width: 300px;
+  margin-left:120px;
+  transform: rotate(-20deg);
+}
+#pic2{
+  height:450px;
+  width: 450px;
+  margin-top:78px;
+  transform: rotate(-20deg);
+  border:solid 7px black;
+}
+
+#pic3{
+  border:solid 5px black;
+}
+.navbar-nav{
+  padding:2.3rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:5.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding: 0 16px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.download{
+  margin: 5% 3% 5% 0%;
+}
+#features{
+  padding:4% 5%;
+  border: solid 6px pink;
+  padding-left:13%;
+}
+.logo{
+  color:#d35bde;
+}
+.logo:hover{
+  color: #42f59b;
+}
+#customer{
+  padding: 5% 5%;
+/* background: linear-gradient(250deg,#d35bde 60%, #42f59b 60%); */
+ background-image: url("https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+background-size: cover;
+}
+#voice{
+  text-decoration: underline;
+  margin-bottom: 80px;
+}
+#pricing{
+  padding:105px;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  border: solid 7px pink;
+  background-size: cover;
+
+}
+.pricing-col{
+  padding: 3% 3%;
+}
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+  background: linear-gradient(110deg,#d35bde 60%, #42f59b 60%);
+}
+.footer-icon{
+  margin:20px 10px;
+}
+#aboutus{
+  text-align: center;
+  border: solid pink 7px;
+  background-image: url("https://image.freepik.com/free-vector/white-gray-background-with-diagonal-lines-pattern_1017-25100.jpg");
+  background-size: cover;
+}
+.aboutus{
+  padding: 6px 11px;
+}
